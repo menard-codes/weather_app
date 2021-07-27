@@ -1,0 +1,44 @@
+
+.cardContainer {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card {
+    background-color: rgb(255, 255, 255);
+    color: black;
+    box-shadow: 1px 1px 6px 0 grey;
+    padding: 5px 15px;
+    border-radius: 20px;
+    width: clamp(200px, 80%, 300px);
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    line-height: 10px;
+}
+
+#locationCont {
+    font-size: 1.3rem;
+}
+
+#imageCont {
+}
+
+#weatherCont {
+    text-align: center;
+    font-size: 1.2rem;
+}
+
+#description {
+    font-size: 1rem;
+    color: rgb(117, 117, 117);
+}
+
+#tempCont {
+    font-size: 1.2rem;
+}
+
