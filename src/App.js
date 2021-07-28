@@ -32,7 +32,7 @@ function App() {
 
   const handleSubmit = async e => {
     e.preventDefault();
-    const generateWeatherUrl = cityName => `http://api.openweathermap.org/data/2.5/weather?q=${cityName}&appid=${process.env.REACT_APP_API_KEY}&units=metric`
+    const generateWeatherUrl = cityName => `https://api.openweathermap.org/data/2.5/weather?q=${cityName}&appid=${process.env.REACT_APP_API_KEY}&units=metric`
     const generateIconUrl= iconId => `http://openweathermap.org/img/w/${iconId}.png`
 
     try {
